@@ -1,6 +1,6 @@
 {
-    "name": "Roadiz",
-    "id": "roadiz",
+    "name": "Elgg",
+    "id": "elgg",
     "packaging_format": 1,
     "requirements": {
         "yunohost": ">> 2.3.15"
@@ -26,8 +26,8 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain for Roadiz",
-                    "fr": "Choisissez un domaine pour Roadiz"
+                    "en": "Choose a domain for Elgg",
+                    "fr": "Choisissez un domaine pour Elgg"
                 },
                 "example": "domain.org"
             },
@@ -35,8 +35,8 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for Roadiz",
-                    "fr": "Choisissez un chemin pour Roadiz"
+                    "en": "Choose a path for Elgg",
+                    "fr": "Choisissez un chemin pour Elgg"
                 },
                 "example": "/roadiz",
                 "default": "/roadiz"
@@ -44,7 +44,7 @@
             {
                 "name": "is_public",
                 "ask": {
-                    "en": "Is it a public Roadiz site ?",
+                    "en": "Is it a public Elgg site ?",
                     "fr": "Est-ce un site public ?"
                 },
                 "choices": ["Yes", "No"],
@@ -54,8 +54,8 @@
                 "name": "admin_name",
                 "type": "user",
                 "ask": {
-                    "en": "Choose the Roadiz administrator (must be an existing YunoHost user)",
-                    "fr": "Choisissez l'administrateur de Roadiz (doit être un utilisateur YunoHost existant)"
+                    "en": "Choose the Elgg administrator (must be an existing YunoHost user)",
+                    "fr": "Choisissez l'administrateur de Elgg (doit être un utilisateur YunoHost existant)"
                 },
                 "example": "homer"
             },
